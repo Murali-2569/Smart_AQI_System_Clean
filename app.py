@@ -72,7 +72,7 @@ df['Date'] = pd.to_datetime(df['Date'])
 # ================= HEADER =================
 st.markdown("""
 <div style="text-align:center; padding:20px;">
-    <h1 style="color:#3ffa3c;">🌍 Smart AQI Monitoring & Health Advisory System</h1>
+    <h1 style="color:#3ffa3c;">🌍 AQI Prediction Using Ml </h1>
     <p style="color:#bdc3c7; font-size:18px;">
         Real-Time Air Quality Intelligence Platform
     </p>
@@ -440,7 +440,7 @@ st.markdown("""
 <div class="footer">
   <div class="footer-container">
     <div class="footer-section">
-      <h3>Smart AQI Monitoring & Health Advisory System</h3>
+      <h3>AQI Prediction Using Ml</h3>
       <div>
         Real-time Air Quality Insights for Safer Living<br>
         Designed to help citizens make informed decisions about their health and environment.
@@ -474,11 +474,10 @@ st.markdown("""
   <hr>
   <div class="footer-bottom">
     <div style="text-align:center; color:#bdc3c7; font-size:14px; padding:15px;">
-    © 2026 Smart AQI Monitoring & Health Advisory System <br>
+    © 2026 AQI Prediction using ML <br>
      | Developed by Murali Krishna & Team... <br>
     Powered by Machine Learning & Real-Time OpenWeather API
     </div>
   </div>
 </div>
-""", unsafe_allow_html=True)
-
+""", unsafe_allow_html=True)  
